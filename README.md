@@ -65,18 +65,22 @@ Provide the instructions below.  Please double check your instruction to make ce
 
 **Required components for running the application in development mode**
 ```
-Tell us what componenets we need to run your solution locally
+pip3 install pipenv
 ```
 
 **Install**
 ```
-Tell us what commands we have to run to install your solution dependencies locally
+pipenv install --dev
 ```
 
 **Start the internal application in development mode**
 ```
-Tell us what commands/things we have to do to run your solution locally
-Tell us what commands/things we have to do to execute the endpoint locally 
+pipenv run flask run
+```
+
+**How to run test**
+```
+pipenv run pytest
 ```
 
 **Optional but would really impress us**
@@ -85,5 +89,8 @@ Build a dockerfile and include instructions how to build the image, start the co
 ```
 **Informational**
 ```
-Tell us anything else we should know
+# Using Marshmallow to validate input data, which can reduce the error inside
+# Cached API request data and reduce the traffic
+# Consider the service as a funtion which can be scaled up easilly
+# Run test locally without interact with the network
 ```
