@@ -1,0 +1,180 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://5c3ce12c29429300143fe570.mockapi.io/api/projectmemberships
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA3XUPU4DQRiD4btMnSL2t3/hBpwBUUEKaEABKsTdCVLQ2B5tOdLb7DzrefhuL8/t
+        rqEd2vvl7fX89Hn/f/76OF9uh5/DrWN03OkqutKuejdFN2k39W6ObtZu7t0S3aLd0rs1ulW7tXdb
+        dJt2W+9O0Z12Ohzzoo9aSjiIOIncNRIFrkJJ0wUGA5FB0sBsIDhIHRgPxAcJBBOCECGNYEgQJSQT
+        zAkKkFIwquup/+tJQCOgzmLYhRFQCJgENAIKAZOARkAhYBLQCCgETAIaAYWASUAjoBAwCWgEFAIm
+        AY2AQlDDXPa+qgas3TKtaj8dnjG3uo63t4lVjqWLrdQq19LJVnKVc+lmK73KvXS0lWDlYH+rffwF
+        WC1hkx8GAAA=
+    headers:
+      Access-Control-Allow-Headers:
+      - X-Requested-With,Content-Type,Cache-Control,access_token
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE,OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 01 Mar 2021 01:37:58 GMT
+      Etag:
+      - '"-1822347944"'
+      Server:
+      - Cowboy
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 vegur
+      X-Powered-By:
+      - Express
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://5c3ce12c29429300143fe570.mockapi.io/api/unregisteredusers
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA63VQUvEMBCG4f+S8yL9kiZtPbkILgrVi3gRD3UTutVtC+3KHmT/u60gDMgcBuaW
+        hCE8p3lfv00XzbWxMBuT+qY7bmOc0jwvb79X3Mxjn86HNKWr/dgvU8dmaL+aNt2OMa1Tw/I2pbab
+        T1Nz6sbhfv3v4zzXD49Pn26s3eGl9u+7/R3+De7SkJZzis9dv/4FHxB8ZkPpYS6bP5tlbFbPZiU2
+        S2yOsTk9m5PYHLHljC3Xs+USW05snrF5PZuX2DyxBcYW9GxBYgvEVjC2Qs9WSGwFsZWMrdSzlRJb
+        SWwVY6v0bJXEVhEbMm75ZorbNxOt34z62Dho1kGWB9oHcIGAYiEgSgRoI8BFAoqVgCgToJ0AFwoo
+        lgKiVIC2AlwsoFgLiHKxTF/efgCY3KCmPQkAAA==
+    headers:
+      Access-Control-Allow-Headers:
+      - X-Requested-With,Content-Type,Cache-Control,access_token
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE,OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 01 Mar 2021 01:37:59 GMT
+      Etag:
+      - '"-1499407208"'
+      Server:
+      - Cowboy
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 vegur
+      X-Powered-By:
+      - Express
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.25.1
+    method: GET
+    uri: https://5c3ce12c29429300143fe570.mockapi.io/api/registeredusers
+  response:
+    body:
+      string: !!binary |
+        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
+    headers:
+      Access-Control-Allow-Headers:
+      - X-Requested-With,Content-Type,Cache-Control,access_token
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE,OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 01 Mar 2021 01:37:59 GMT
+      Etag:
+      - '"1819813422"'
+      Server:
+      - Cowboy
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 vegur
+      X-Powered-By:
+      - Express
+    status:
+      code: 200
+      message: OK
+version: 1
